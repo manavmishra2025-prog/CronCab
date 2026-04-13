@@ -1,4 +1,4 @@
-# RidOS 🚖
+# CronCab 🚖
 
 **A next-generation ride-hailing app built with Operating Systems principles at its core.**
 
