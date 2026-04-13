@@ -26,7 +26,7 @@
 ## 📁 Project Structure
 
 ```
-RidOS/
+CronCab/
 ├── src/
 │   ├── screens/          # UI screens (Passenger & Driver flows)
 │   ├── components/       # Reusable UI components
@@ -62,7 +62,7 @@ RidOS/
 
 ```bash
 git clone https://github.com/yourusername/CronCab.git
-cd RidOS
+cd CronCab
 npm install
 npx expo start
 ```
