@@ -61,7 +61,7 @@ RidOS/
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/RidOS.git
+git clone https://github.com/yourusername/CronCab.git
 cd RidOS
 npm install
 npx expo start
