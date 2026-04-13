@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "RidOS",
+    "slug": "ridos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A0F"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.ridos.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "RidOS needs your location to find nearby drivers and show your position on the map.",
+        "NSLocationAlwaysUsageDescription": "RidOS uses your location to track your ride in the background.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "RidOS uses your location to track your ride."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0A0F"
+      },
+      "package": "com.ridos.app",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "VIBRATE",
+        "RECEIVE_BOOT_COMPLETED",
+        "FOREGROUND_SERVICE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow RidOS to use your location."
+        }
+      ]
+    ],
+    "scheme": "ridos"
+  }
+}
